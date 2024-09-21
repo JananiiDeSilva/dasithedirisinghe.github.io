@@ -4,6 +4,9 @@
     <title>Dasith Edirisinghe</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 	<link rel="stylesheet" href="https://fonts.google.com/specimen/Nunito+Sans?query=Nunito+Sans">
@@ -29,6 +32,32 @@
 /*======================================
 //--//-->   ABOUT
 ======================================*/
+
+@media (max-width: 768px) {
+    .your-container-class {
+        padding: 10px; /* Adjust padding/margins */
+        width: 100%;   /* Ensure full width */
+        box-sizing: border-box; /* Include padding in width calculation */
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+}
+.column {
+    flex: 1 1 100%; /* Make columns stack on small screens */
+}
+
+.resume-wrap {
+    width: 100%; /* Full width on smaller screens */
+}
+
+img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
 
 .about-mf .box-shadow-full {
   padding-top: 4rem;
